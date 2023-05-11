@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exer. 03 Maior Número</title>
+</head>
+<body>
+    <script>
+        // 3. Faça um script que leia três números inteiros e mostre o maior deles.
+        let num1 = parseInt(prompt("Entre com o primeiro número: "));
+        let num2 = parseInt(prompt("Entre com o segundo número: "));
+        let num3 = parseInt(prompt("Entre com o terceiro número: "));
+
+        if (num1>num2 && num1>num3){
+            document.write("O maior número é o: " + num1);
+        } else if (num2>num1 && num2>num3){
+            document.write("O maior número é o: " + num2);
+        }else if (num3>num1 && num3>num2){
+            document.write("O maior número é o: " + num3);
+        }
+        
+    </script>
+</body>
+</html>

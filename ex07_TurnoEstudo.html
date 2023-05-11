@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exer. 07 Turno de estudo</title>
+</head>
+<body>
+    <script>
+        // 7. Faça um script que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+
+        let turno = prompt("Digite qual turno você estuda: M para matutino, V para Vespertino ou N para Noturno ").toUpperCase();
+
+    
+        if (turno == "M"){
+            document.write ("Bom Dia!");
+        }else if (turno == "V"){
+            document.write("Boa Tarde!");
+        }else if (turno == "N"){
+            document.write("Boa Noite!");
+        }else{
+            document.write("Valor Inválido!");
+        }
+    </script>
+</body>
+</html>
