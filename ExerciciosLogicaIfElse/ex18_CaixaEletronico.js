@@ -50,3 +50,4 @@ if (valorSaque >= 100) {
     if (notasUm > 0) {
         document.write(notasUm + " nota(s) de R$1<br>");
     }
+      
